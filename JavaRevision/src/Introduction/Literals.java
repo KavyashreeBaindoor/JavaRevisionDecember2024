@@ -91,11 +91,47 @@ public class Literals {
 //System.out.println("c:\kavya\file.java"); //Invalid escape sequence (valid ones are  \b  \t  \n  \f  \r  \"  \'  \\ )
 		
 System.out.println("c:\\kavya\\file.java");		
+
+
+
+char k=98; //'b'
+k++;
+
+System.out.println(k);  //c
 		
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//String literals
+//String literals   --not primitive type  
+//sequence of character witin ""
+
+
+String s="d";
+String s1="kavya";
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+//byte --->short  ----int -----long(8b)
+//
+//float (4b)---double
+
+//smaller ones can be put to bigger contianers not viec versa
+
+
+long l3=10;
+
+//byte b=10l;  //Type mismatch: cannot convert from long to byte
+
+//exception case:
+float k1=10l;  ///bcz in memory floating point is represented different from integers
+
+System.out.println(k1);//10.0
+
+
+
 
 
 

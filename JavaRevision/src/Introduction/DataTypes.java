@@ -57,10 +57,17 @@ public class DataTypes {
 		
 	//	int x1= 8.9;//cannot convert from double to int
 		
+		
 		//every integral  decimal number is double type by default
 		
 		//5 to 6 decimal places --- float  4 bytes
 		//more than 6 decimal places ---double   8bytes
+		
+		
+		//every integral  decimal number is double type by default
+		//float a=1.2222; //change type to double
+		
+		float a=1.2222f;
 		
 		
 		
